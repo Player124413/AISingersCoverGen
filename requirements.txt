@@ -6,7 +6,7 @@ gradio==2.5.0
 lib==2.0.0
 librosa==0.9.1
 numpy==1.15.0
-onnxruntime_gpu
+onnxruntime-gpu>=1.17
 praat-parselmouth>=0.4.2
 pedalboard==0.2.3
 pydub==0.5.1
