@@ -285,7 +285,7 @@ if __name__ == '__main__':
         with gr.Tab('Скачать модель'):
 
             with gr.Tab('Ссылки HuggingFace/Pixeldrain/Google Drive/Mega/Яндекс Диск'):
-                with gr.Row(equal_height=True)):
+                with gr.Row(equal_height=True):
                     model_zip_link = gr.Text(label='Ссылка на загрузку модели', info='Должен быть zip файл, содержащий .pth файл модели и опциональный .index файл.')
                     model_name = gr.Text(label='Назовите свою модель', info='Дайте вашей новой модели уникальное имя, отличное от других голосовых моделей.')
 
@@ -343,7 +343,7 @@ if __name__ == '__main__':
             gr.Markdown('- Загрузите zip файл и дайте уникальное имя голосу')
             gr.Markdown('- Нажмите "Загрузить модель"')
 
-            with gr.Row(equal_height=True)):
+            with gr.Row(equal_height=True):
                 with gr.Column():
                     zip_file = gr.File(label='Zip файл')
 
